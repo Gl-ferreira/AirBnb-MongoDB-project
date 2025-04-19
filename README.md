@@ -1,5 +1,9 @@
 # AirBnb-MongoDB-project
 
+This project was developed for the course "Big Data Modelling and Management", with the goal of building practical experience using MongoDB. You can find the Jupyter Notebook file in this repository, and the dataset can be downloaded from the following release link: as a release format, in the following link: 
+
+https://github.com/Gl-ferreira/AirBnb-MongoDB-project/releases/download/airbnb-initial-db/sample_airbnb_HW2.agz
+
 ## What is MongoDB and why is it important?
 
 MongoDB is a **non relational database** designed to store and manage large volumes of unstructured or semi-structured data. MongoDB's utilization has been increasing worldwide, because it enables the following advantages:
