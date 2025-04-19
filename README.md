@@ -13,14 +13,18 @@ MongoDB is a **non relational database** designed to store and manage large volu
 
 As part of the "Big Data Modelling and Management" course, my colleagues and I completed a notebook project using Airbnb data. The goal of this project is to answer the designated questions, which are divided into the following 3 sections: **Data Modelling**, **Uses for the database** and **Database updates**.
 
-* **Data Modelling** -  the current database's performance is known to be low, given the lack of patterns and indexes. In addition, there is regular overwriting of data, which deletes valuable information for analysis, and additional issues, such as duplicated values and wrong timestamps. We must apply good practices to improve the database's performance, which means answering the following questions:
+### Data Modelling 
+
+The current database's performance is known to be low, given the lack of patterns and indexes. In addition, there is regular overwriting of data, which deletes valuable information for analysis, and additional issues, such as duplicated values and wrong timestamps. We must apply good practices to improve the database's performance, which means answering the following questions:
 
 1) The most typical use case for the database is to show information relating to a property listing to a customer. This is done by a query to the database which returns one of the listing documents. Currently a lot of time is spent when a listing is retrieved from the database to show to a customer. Decide what information should be returned in a typical query and optimise the structure for this use case. For example, we typically only want a sample of reviews but not all reviews (although all reviews ), the customer does not need to know past transaction data, etc. Update the document schema for this typical use case. This may involve the creation of new collections and documents.  
 
 2) Review the data for any errors (such as transactions that don’t fit the listing) or inappropriate duplication and clean up as appropriate. 
 
   
-* **Queries to database to answer the questions** - After addressing the Data Modelling, we needed to write queries to retrieve the necessary information for answering the following questions:
+### Queries to database to answer the questions 
+
+After addressing the Data Modelling, we needed to write queries to retrieve the necessary information for answering the following questions:
 
 3)	Once per month we like to reward hosts with recognition. Pick three superhosts who have at least two property listings that can accommodate more than four people?
 
@@ -42,7 +46,9 @@ As part of the "Big Data Modelling and Management" course, my colleagues and I c
 
 12)	We wish to have a summary webpage that displays information about our top destinations. This webpage should display for each of the top 10 cities some basic information about our operations in the area (number of properties by type for example, average price by type) but you can choose the metrics. For each of the top 10 cities it should also provide some basic information about the top 3 properties in each city (price, number of review, whatever you think useful) to show an example of the properties available in the area. We would like to keep this webpage up to date as information changes.
 
-* **Database updates** - After completing the initial tasks and optimising the database, we proceeded with the remaining assignments. For these, we had the flexibility to create and use fictional data as needed.
+### Database updates
+
+After completing the initial tasks and optimising the database, we proceeded with the remaining assignments. For these, we had the flexibility to create and use fictional data as needed.
 
 13)	Add a new property, this property should have a new host, and should be located in one of the top 10 cities. The host selects the top 10 most common amenities to be listed for the property.
 
